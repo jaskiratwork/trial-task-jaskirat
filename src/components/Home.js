@@ -20,7 +20,7 @@ const Home = () => {
   const [currentNFT, setCurrentNFT] = useState(null);
   const [visableNFTButton, setVisableNFTButton] = useState(false);
   const [exchangeStore, setExchangeStore] = useState("");
-  const baseURL = "https://atomic-swap-code.vercel.app/exchange";
+  const baseURL = "https://trial-task-jaskirat.vercel.app/exchange";
 
   const fetchNFTs = async (walletAddress) => {
     console.log("Fetching NFTs for address-------->", walletAddress);
